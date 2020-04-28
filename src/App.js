@@ -78,7 +78,6 @@ const Footer = () => (
 
 const CreateNew = (props) => {
   const history = useHistory()
-
   const { reset: resetContent, bind: bindContent } = useField('text')
   const { reset: resetAuthor, bind: bindAuthor } = useField('text')
   const { reset: resetInfo, bind: bindInfo } = useField('text')
@@ -122,7 +121,6 @@ const CreateNew = (props) => {
       </form>
     </div>
   )
-
 }
 
 const App = () => {
